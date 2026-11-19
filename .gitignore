@@ -1,0 +1,58 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+ENV/
+
+# Node / Frontend
+node_modules/
+.pnp
+.pnp.js
+coverage/
+dist/
+build/
+.next/
+out/
+.docusaurus/
+.cache/
+
+# Uploads & Artifacts
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/models_storage/*
+!backend/models_storage/.gitkeep
+backend/reports_storage/*
+!backend/reports_storage/.gitkeep
+
+# IDEs & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
